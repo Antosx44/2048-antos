@@ -207,6 +207,10 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 10px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
 }
 .fa-globe, .fa-facebook, .fa-twitter, .fa-instagram, .fa-tiktok, .fa-youtube {
     font-size: 25px;
