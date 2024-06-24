@@ -1,0 +1,102 @@
+<!-- HTML is primarily used to create and structure the content of a website -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- '<head></head>' contains details about the HTML file which is usually not visible in the browser -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>2048</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- body contains the actual content of th HTML file that are visible in the web browser -->
+         
+        <!-- To create html contents, we usually use paired tags and self-closing tags -->
+
+
+        <div class="container">
+            <h1>2048</h1>
+            <h2>Created By: Joshua Valdez</h2>
+            <!-- <h2> Score: <span id="score">0</span></h2> -->
+            <hr id="top-line">
+            <div class="header-container">
+                <div class="score-container">
+                    <div class="score-label">
+                        Score: 
+                    </div>
+                    <div id="score">
+                        0
+                    </div>
+                </div>
+
+                <div class="share-button-container">
+                    <div class="share-label">Share:</div>
+                    <div class="share-icons">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://antosx44.github.io/fcb-2048/" target="_blank">
+                            <img src="./images/share_2048-fb.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <!-- 'div' tag are usually containers to group contents -->
+        <!-- Trivia: In programming, our count usually starts in zero -->
+
+        <!-- id and class attribute are used to provide identifier/s for styling and manipulation (The difference of id and class, is that id identifier should not be dublicated in the entire document) -->
+        <div id="board">
+            <!--
+            <div class="tile">[r0,c0]</div>
+            <div class="tile">[r0,c1]</div>
+            <div class="tile">[r0,c2]</div>
+            <div class="tile">[r0,c3]</div>
+
+            <div class="tile">[r1,c0]</div>
+            <div class="tile">[r1,c1]</div>
+            <div class="tile">[r1,c2]</div>
+            <div class="tile">[r1,c3]</div>
+
+            <div class="tile">[r2,c0]</div>
+            <div class="tile">[r2,c1]</div>
+            <div class="tile">[r2,c2]</div>
+            <div class="tile">[r2,c3]</div>
+            
+            <div class="tile">[r3,c0]</div>
+            <div class="tile">[r3,c1]</div>
+            <div class="tile">[r3,c2]</div>
+            <div class="tile">[r3,c3]</div> 
+            -->
+        </div>
+
+
+
+        <footer>
+            <a href="https://zuitt.co/?referral=2402-org-ali" target="blank">
+                <i class="fa-solid fa-globe"></i>
+            </a>
+            <a href="https://www.facebook.com/zuittcodingbootcamp" target="blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/zuittco" target="blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/zuittcodingbootcamp" target="blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@zuittcodingbootcamp" target="blank">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="https://www.youtube.com/@ZuittCodingBootcamp" target="blank">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+        </footer>
+    
+
+        <!-- Fontawesome Script -->
+        <script src="https://kit.fontawesome.com/b211bfcfde.js" crossorigin="anonymous"></script>
+
+        <!-- js connection -->
+        <script src="logic.js"></script>
+
+    </body>
+</html>
